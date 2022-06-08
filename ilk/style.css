@@ -12,15 +12,14 @@ section {
 }
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 750px;
+  position: fixed;
+  z-index: 1;
   width: 100%;
-  padding: 30px;
+  padding: 15px;
   background-color: #212529;
 }
 header .menu .imgbox {
-  width: 150px;
+  width: 200px;
 }
 header .menu nav a {
   font-size: 18px;
@@ -31,16 +30,8 @@ header .menu nav a:hover {
   color: #ffc800;
 }
 @media screen and (max-width: 991px) {
-  header {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 750px;
-    width: 100%;
-    padding: 30px;
-    background-color: #212529;
-  }
   header .menu .imgbox {
-    width: 300px;
+    width: 426px;
   }
   header .menu nav a {
     font-size: 18px;
@@ -101,7 +92,7 @@ header .menu nav a:hover {
   font-size: 50px;
   font-weight: 700;
 }
-#services .textbox h2 {
+#services .textbox h4 {
   font-size: 20px;
   margin: 20px 0 70px;
   color: #b5b5b5;
@@ -148,4 +139,84 @@ header .menu nav a:hover {
   #services .box .icon {
     margin-left: 100px;
   }
+}
+
+#portfolio {
+  background-color: #f6f6f6;
+}
+#portfolio h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 50px 0 20px;
+}
+#portfolio h3 {
+  color: #7d7d7d;
+  margin: 0 0 66px;
+}
+#portfolio .box {
+  background-color: #f1f1f1;
+}
+#portfolio .box .overlay .icon {
+  display: none;
+}
+#portfolio .box .overlay:hover {
+  position: relative;
+}
+#portfolio .box .overlay:hover .yellow {
+  width: 416px;
+  height: 312px;
+  background-color: #ffc800;
+  position: absolute;
+  transition: 0.4s;
+  top: 0;
+}
+#portfolio .box .overlay:hover .icon {
+  display: block;
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  color: #fff;
+  font-size: 70px;
+}
+#portfolio .box .textbox {
+  text-align: center;
+}
+#portfolio .box .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0 20px;
+}
+#portfolio .box .textbox h3 {
+  color: #878787;
+}
+@media screen and (max-width: 991px) {
+  #portfolio .box .textbox h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  #portfolio .box .textbox h3 {
+    color: #878787;
+  }
+}
+
+#about .txt h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#about .txt h3 {
+  color: #aeadad;
+  font-size: 20px;
+}
+#about .textbox h2 {
+  font-size: 27px;
+  font-weight: 700;
+}
+#about .textbox h4 {
+  color: #808080;
+}
+#about .imgbox {
+  width: 120px;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

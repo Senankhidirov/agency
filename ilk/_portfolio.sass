@@ -1,0 +1,47 @@
+#portfolio
+    background-color: #f6f6f6
+    h1
+        font-weight: 700
+        font-size: 40px
+        margin: 50px 0 20px
+    h3
+        color: #7d7d7d
+        margin: 0 0 66px
+    .box
+        background-color: #f1f1f1
+        .overlay
+            .icon
+                display: none
+            &:hover
+                position: relative
+                .yellow
+                    width: 416px
+                    height: 312px
+                    background-color: #ffc800
+                    position: absolute
+                    transition: 0.4s
+                    top: 0
+                .icon
+                    display: block
+                    position: absolute
+                    top: 120px
+                    left: 170px
+                    color: #fff
+                    font-size: 70px
+        .textbox
+            text-align: center
+            h2
+                font-weight: 700
+                font-size: 30px
+                margin: 15px 0 20px
+            h3
+                color: #878787
+    @media screen and ( max-width: 991px  )
+        .box
+            .textbox
+                h2
+                    font-size: 23px
+                    font-weight: 700
+                    margin-bottom: 10px
+                h3
+                    color: #878787
