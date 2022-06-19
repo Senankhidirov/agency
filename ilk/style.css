@@ -203,9 +203,21 @@ header .menu nav a:hover {
   }
 }
 
+#about .boxe {
+  width: 55%;
+  margin-left: 30px;
+}
+#about .marginleft1 {
+  margin-left: 129px;
+}
+#about .marginleft2 {
+  margin-left: 134px;
+}
 #about .reverse {
+  margin-right: 40px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  align-items: flex-end;
 }
 #about .txt h1 {
   font-size: 52px;
@@ -219,41 +231,225 @@ header .menu nav a:hover {
 }
 #about .textbox {
   text-align: left;
-  width: 76%;
+  width: 56%;
 }
 #about .textbox h1, #about .textbox h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
-}
-#about .textbox h2 {
-  margin-top: 10px;
 }
 #about .textbox h3 {
   font-size: 19px;
   line-height: 1.4;
   color: #a4a4a4;
+  margin-top: 10px;
 }
-#about .txt-right {
+#about .txt-left {
   width: 38%;
   margin-left: 30px;
   text-align: left;
+  margin-right: 33px;
+  padding-right: 74px;
 }
 #about .imgbox {
-  max-width: 100px;
-  height: 35%;
-  border: 7px solid #8a8a8a;
+  max-width: 148px;
+  min-width: 146px;
+  height: 148px;
+  border: 7px solid #dadada;
   border-radius: 50%;
   margin-right: 20px;
 }
-#about .yellowcircle h1 {
+#about .yellow h1 {
   text-align: center;
   background-color: #ffc800;
   color: #ffffff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-  width: 103px;
-  border: 7px solid #fff;
+  border: 8px solid #ededed;
   border-radius: 50%;
-  padding: 16px 50px;
+  width: 148px;
+  height: 148px;
+  padding-top: 25px;
+  font-size: 25px;
+}
+@media screen and (max-width: 1399px) {
+  #about .box {
+    padding-left: 84px;
+  }
+  #about .marginleft1 {
+    margin-left: 97px;
+  }
+  #about .marginleft2 {
+    margin-left: 100px;
+  }
+  #about .reverse h3 {
+    margin-left: 41px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #about .box {
+    padding-left: 115px;
+  }
+  #about .marginleft1 {
+    margin-left: 49px;
+  }
+  #about .marginleft2 {
+    margin-left: 55px;
+  }
+  #about .reverse h3 {
+    margin-left: 41px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #about .box {
+    padding-left: 115px;
+  }
+  #about .box .txt-left {
+    width: 41%;
+    margin-left: 11px;
+    margin-right: 9px;
+    padding-right: 1px;
+  }
+  #about .marginleft1 {
+    margin-left: 49px;
+  }
+  #about .marginleft1 h2 {
+    margin-left: 58px;
+  }
+  #about .marginleft2 {
+    margin-left: 55px;
+  }
+  #about .marginleft2 h2 {
+    margin-left: 18px;
+  }
+  #about .reverse h3 {
+    margin-left: -68px;
+  }
+}
+@media screen and (max-width: 760px) {
+  #about .txt h2 {
+    font-size: 20px;
+  }
+  #about .marginleft1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -16px;
+  }
+  #about .marginleft1 .reverse {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #about .marginleft1 .reverse h1 {
+    margin-left: 12px;
+  }
+  #about .marginleft1 .reverse h2 {
+    width: 143%;
+    margin-left: 10px;
+    margin-right: 49px;
+  }
+  #about .marginleft1 .reverse h3 {
+    margin-left: -136%;
+    padding-left: 222px;
+    margin-right: -227px;
+  }
+  #about .marginleft1 .imgbox {
+    max-width: 93px;
+    min-width: 79px;
+    height: 79px;
+    border: 7px solid #dadada;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  #about .box {
+    padding-left: 26px;
+    margin-left: -98%;
+    margin-right: 29px;
+  }
+  #about .box .imgbox {
+    max-width: 93px;
+    min-width: 79px;
+    height: 89px;
+    border: 7px solid #dadada;
+    border-radius: 50%;
+    margin-right: 7px;
+  }
+  #about .marginleft2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -16px;
+  }
+  #about .marginleft2 .reverse {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #about .marginleft2 .reverse h1 {
+    margin-left: 11px;
+    margin-right: -10px;
+  }
+  #about .marginleft2 .reverse h2 {
+    width: 159%;
+    margin-left: 10px;
+    margin-right: 54px;
+  }
+  #about .marginleft2 .reverse h3 {
+    margin-left: -136%;
+    padding-left: 222px;
+    margin-right: -227px;
+  }
+  #about .marginleft2 .imgbox {
+    max-width: 98px;
+    min-width: 87px;
+    height: 82px;
+    border: 7px solid #dadada;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  #about .yellow {
+    padding-right: 96%;
+  }
+  #about .yellow h1 {
+    width: 98px;
+    height: 98px;
+    padding-top: 14px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 566px) {
+  #about .box {
+    padding-left: 179px;
+  }
+  #about .box .textbox h3 {
+    width: 26vh;
+  }
+  #about .boxe {
+    padding-left: -26px;
+  }
+  #about .boxe .textbox {
+    margin-right: 26px;
+  }
+  #about .boxe .textbox h1 {
+    margin-left: 51px;
+    margin-right: -114px;
+  }
+  #about .boxe .textbox h2 {
+    margin-left: 47px;
+  }
+  #about .boxe .textbox h3 {
+    width: 57vh;
+    padding-left: 276px;
+  }
+  #about .boxe .imgbox {
+    margin-right: -24px;
+    max-width: 81px;
+  }
+}
+@media screen and (max-width: 366px) {
+  #about .boxe {
+    margin-right: -1px;
+  }
+  #about .boxe .textbox h3 {
+    width: 48vh;
+    padding-left: 186px;
+  }
 }/*# sourceMappingURL=style.css.map */

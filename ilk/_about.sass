@@ -1,7 +1,16 @@
 #about
+    .boxe
+        width: 55%
+        margin-left: 30px
+    .marginleft1
+        margin-left: 129px
+    .marginleft2
+        margin-left: 134px
     .reverse
+        margin-right: 40px
         display: flex
-        flex-direction: row-reverse
+        flex-direction: column
+        align-items: flex-end
     .txt
         h1
             font-size: 52px
@@ -13,35 +22,178 @@
             color: #a4a4a4
     .textbox
         text-align: left
-        width: 76%
+        width: 56%
         h1,h2
-            font-size: 30px
+            font-size: 25px
             font-weight: 700
-        h2
-            margin-top: 10px
         h3
             font-size: 19px
             line-height: 1.4
             color: #a4a4a4
-    .txt-right
+            margin-top: 10px
+    .txt-left
         width: 38%
         margin-left: 30px
         text-align: left
+        margin-right: 33px
+        padding-right: 74px
     .imgbox
-        max-width: 100px
-        height: 35%
-        border: 7px solid #8a8a8a
+        max-width: 148px
+        min-width: 146px
+        height: 148px
+        border: 7px solid #dadada
         border-radius: 50%
         margin-right: 20px
-    .yellowcircle
+    .yellow
         h1
             text-align: center
             background-color: #ffc800
-            color:#ffffff 
-            font-size: 16px
-            font-weight: 700
-            line-height: 1
-            width: 103px
-            border: 7px solid #fff
+            color: #ffffff
+            border: 8px solid #ededed
             border-radius: 50%
-            padding: 16px 50px                                            
+            width: 148px
+            height: 148px
+            padding-top: 25px
+            font-size: 25px
+    @media screen and ( max-width: 1399px  )
+        .box
+            padding-left: 84px
+        .marginleft1
+            margin-left: 97px
+        .marginleft2
+            margin-left: 100px
+        .reverse
+            h3
+                margin-left: 41px
+    @media screen and ( max-width: 1200px  )
+        .box
+            padding-left: 115px
+        .marginleft1
+            margin-left: 49px
+        .marginleft2
+            margin-left: 55px
+        .reverse
+            h3
+                margin-left: 41px
+    @media screen and ( max-width: 991px  )
+        .box
+            padding-left: 115px
+            .txt-left
+                width: 41%
+                margin-left: 11px
+                margin-right: 9px
+                padding-right: 1px
+        .marginleft1
+            margin-left: 49px
+            h2
+                margin-left: 58px
+        .marginleft2
+            margin-left: 55px
+            h2
+                margin-left: 18px
+        .reverse
+            h3
+                margin-left: -68px
+    @media screen and ( max-width: 760px  )
+        .txt
+            h2
+                font-size: 20px
+        .marginleft1
+            display: flex
+            flex-direction: row-reverse
+            margin-left: -16px
+            .reverse
+                margin-right: 40px
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                h1
+                    margin-left: 12px
+                h2
+                    width: 143%
+                    margin-left: 10px
+                    margin-right: 49px
+                h3
+                    margin-left: -136%
+                    padding-left: 222px
+                    margin-right: -227px
+            .imgbox
+                max-width: 93px
+                min-width: 79px
+                height: 79px
+                border: 7px solid #dadada
+                border-radius: 50%
+                margin-right: 12px
+        .box
+            padding-left: 26px
+            margin-left: -98%
+            margin-right: 29px
+            .imgbox
+                max-width: 93px
+                min-width: 79px
+                height: 89px
+                border: 7px solid #dadada
+                border-radius: 50%
+                margin-right: 7px
+        .marginleft2
+            display: flex
+            flex-direction: row-reverse
+            margin-left: -16px
+            .reverse
+                margin-right: 40px
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                h1
+                    margin-left: 11px
+                    margin-right: -10px
+                h2
+                    width: 159%
+                    margin-left: 10px
+                    margin-right: 54px
+                h3
+                    margin-left: -136%
+                    padding-left: 222px
+                    margin-right: -227px
+            .imgbox
+                max-width: 98px
+                min-width: 87px
+                height: 82px
+                border: 7px solid #dadada
+                border-radius: 50%
+                margin-right: 12px
+        .yellow
+            padding-right: 96%
+            h1
+                width: 98px
+                height: 98px
+                padding-top: 14px
+                font-size: 18px
+    @media screen and ( max-width: 566px  )
+        .box
+            padding-left: 179px
+            .textbox
+                h3
+                    width: 26vh
+        .boxe
+            padding-left: -26px
+            .textbox
+                margin-right: 26px
+                h1
+                    margin-left: 51px
+                    margin-right: -114px
+                h2
+                    margin-left: 47px
+                h3
+                    width: 57vh
+                    padding-left: 276px
+            .imgbox
+                margin-right: -24px
+                max-width: 81px
+    @media screen and ( max-width: 366px  )
+        .boxe
+            margin-right: -1px
+            .textbox
+                h3
+                    width: 48vh
+                    padding-left: 186px
